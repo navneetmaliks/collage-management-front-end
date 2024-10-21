@@ -1,0 +1,249 @@
+.dashboard-main-container{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(to bottom right, hwb(226 81% 4%), #afaf83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard-container{
+    width: 95%;
+    height: 95vh;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.main-container{
+    width: 80%;
+    height: 95vh;
+    background-color: #fff;
+
+}
+.top-bar{
+    height: 60px;
+    width: 100%;
+    background-color: hsl(271, 34%, 73%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    gap: 20px;
+}
+.logo-container{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+.profile-logo{
+    height: 50px;
+    width: 50px;
+
+}
+.profile-container{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 10px;
+}
+.profile-name{
+    font-size: 10px;
+}
+.your-logo{
+    height: 50px;
+    width: 50px;
+
+}
+.logout-btn{
+    background-color: hsl(199, 63%, 50%);
+    color: #ffff;
+    width: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.outlet-area{
+    padding: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 20px 0px 10px;
+    padding: 10px;
+    }
+    .form input{
+        padding: 10px;
+        border-radius: 10px;
+        border-width: 1px;
+        border-color: #fff;
+        width: 70%;
+        }
+        select{
+            padding: 10px;
+            border-radius: 10px;
+            border-width: 1px;
+            border-color: #fff;
+            width: 70%;
+            }
+    .form button{
+        padding: 10px;
+        border-radius: 10px;
+        border-width: 1px;
+        border-color: #fff;
+        cursor: pointer;
+        width: 50%;
+        
+        }
+.course-wraper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+.course-box{
+    width: 23%;
+    height: 30vh;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.course-box:hover{
+    box-shadow: 2px 2px 5px #eb2525;
+    transition: 0.5s;
+}
+.course-thumbnail{
+    width: 100%;
+    height: 20vh;
+    overflow: hidden;
+}
+.course-title{
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-left: 5%;
+}
+.course-price{
+    font-size: 12px;
+    margin-left: 5%;
+}
+.course-detail-wraper{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+.image-thumbnail{
+    width: 300px;
+    height: 30vh;
+}
+.description-title{
+    font-size: 15px;
+}
+.studentlist-container{
+    width: 100%;
+    height: 80vh;
+    overflow: auto;
+}
+.studentlist-container table{
+    width: 100%;
+    
+}
+.studentlist-container thead{
+    font-size: 14px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: #eee;
+}
+.studentlist-container tbody tr {
+background-color: #917f7f;
+color: #fff;
+}
+.studentlist-container tbody tr:hover{
+    background-color: #908ee5;
+    transition: 0.5s;
+}
+.image-thumbnail-student{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.action-btn{
+    width: 30%;
+}
+.edit-btn{
+    width: 40%;
+    background-color: #908ee5;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.edit-btn:hover{
+    background-color: hsl(242, 32%, 48%);
+    transition: 0.5s;
+}
+.delete-btn{
+    width: 40%;
+    background-color: hsl(19, 83%, 54%);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.delete-btn:hover{
+    background-color: hwb(19 5% 37%);
+    transition: 0.5s;
+}
+.btn-success{
+    width: 100px;
+    background-color: #72b872;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn-success:hover{
+    background-color: hsl(120, 38%, 53%);
+    transition: 0.5s;
+
+}
+.studentdetail-wraper{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.studentimage-box{
+    width: 25%;
+    height: 25vh;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px hsl(120, 59%, 85%);
+}
+.studentdetail-img{
+    width: 100%;
+    height: 25vh;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.studentimage-box:hover{
+    box-shadow: 5px 10px 5px hsl(120, 32%, 47%);
+    transition: 0.5s;
+}
+.studentdetail-area{
+    width: 60%;
+    gap: 10px;
+}
